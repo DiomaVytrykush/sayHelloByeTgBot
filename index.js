@@ -52,5 +52,5 @@ bot.on('message', (msg) => {
             "CAACAgUAAxkBAAEB0iNgEYLa2RpUYg_su_77iBuFknlGwgACQgAD4OrwHQdI1WZcLRu0HgQ")
     );
     bot.sendMessage(chatId, compliments[Math.floor(Math.random() * compliments.length)]);
-  }, 1000 * 60 * 1);
+  }, 1000 * 60 * 15);
 });
